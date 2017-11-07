@@ -1,5 +1,7 @@
 package Lesson8.Leson8_HW.Students;
 
+import java.util.Arrays;
+
 /**
  * Created by slash22 on 13.07.2017.
  */
@@ -12,5 +14,21 @@ public class SpecialStudent extends CollegeStudent {
         super(firstName, lastName, group, coursesTaken);
         this.secretKey = secretKey;
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "SpecialStudent{" +
+                "collegeName='" + collegeName + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", rating=" + rating +
+                ", lastName='" + lastName + '\'' +
+                ", id=" + id +
+                ", group=" + group +
+                ", coursesTaken=" + Arrays.toString(coursesTaken) +
+                ", secretKey=" + secretKey +
+                ", age=" + age +
+                ", email='" + email + '\'' +
+                '}';
     }
 }

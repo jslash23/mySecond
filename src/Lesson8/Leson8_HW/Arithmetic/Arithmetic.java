@@ -2,7 +2,8 @@ package Lesson8.Leson8_HW.Arithmetic;
 
 public class Arithmetic {
 
-    int[] array = {-10, 0, 110, 555, 1000, -45, 0, 60, 10};
+   // int[] array = {-10, 0, 110, 555, 1000, -45, 0, 60, 10};
+   int[] array = {0, 0, 0, 0, 0, 0, 0, 0, 0};
 
     public boolean check(int[] array) {
 

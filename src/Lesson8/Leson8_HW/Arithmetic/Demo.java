@@ -10,5 +10,6 @@ public class Demo  {
         //System.out.println(adder.minElement(adder.array));
         System.out.println(adder.add(5, 7));
         System.out.println(adder.check(adder.array));
+
     }
 }
